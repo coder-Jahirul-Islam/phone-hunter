@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-< <!doctype html>
+<!doctype html>
     <html lang="en">
 
     <head>
@@ -24,14 +21,13 @@
 
             <div class="row g-3 my-3">
                 <div class="col-auto">
-                    <input id="search-field" type="search" class="form-control" id="inputPassword2" placeholder="Search your phone">
+                    <input id="search-field" type="search" class="form-control" id="inputPassword2"
+                        placeholder="Search your phone">
                 </div>
                 <div class="col-auto">
-                    <button id="btn-search"  type="button" class="btn btn-primary mb-2">Search</button>
+                    <button id="btn-search" type="button" class="btn btn-primary mb-2">Search</button>
                 </div>
             </div>
-
-
 
 
             <!-- display search result -->
@@ -44,18 +40,19 @@
                 <div id="no-found-message" class="mt-4 d-none">
                     <h3 class="text-warning">No Phone Found. Please try a new search</h3>
                 </div>
-                <!-- spinners loader -->
-               
-                <div style="height: 400px;" id="loader" class=" d-none d-flex justify-content-center align-items-center">
+                <div id="show-all" class="text-center d-none my-3">
+                    <div id="btn-show-all" class="btn btn-primary">Show All</div>
+                </div>
+
+
+            </section>
+               <!-- spinners loader -->
+               <section id="loader" class="d-none">
+                <div style="height: 400px;" class="d-flex justify-content-center align-items-center">
                     <div class="spinner-border text-success" role="status">
-                      <span class="visually-hidden">Loading...</span>
+                        <span class="visually-hidden">Loading...</span>
                     </div>
-                  </div>
-               
-
-
-
-
+                </div>
             </section>
 
 
