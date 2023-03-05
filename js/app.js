@@ -111,7 +111,7 @@ const displayPhoneDetails = phone => {
     <p><b>Others:</b> ${phone.others ? phone.others.Bluetooth : "No Bluetooth Information"}</p>`
 
 }
-loadPhones("a")
+// loadPhones()
 
 
 
